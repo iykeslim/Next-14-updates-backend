@@ -16,10 +16,10 @@ mongoose
   .catch((err) => console.error(err))
 
 // Middlewares
-app.use(cors()) // Enable CORS for cross-origin requests
-app.use(express.json()) // Parse incoming JSON data
+app.use(cors()) 
+app.use(express.json()) 
 
-// Routes (Add routes here later)
+//I will add  Routes (Add routes here later)
 
 app.listen(port, () => console.log(`Server listening on port ${port}`))
 
